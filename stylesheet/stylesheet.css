@@ -126,15 +126,17 @@ justify-content: center;
 	border-radius: 8px;
 	font-weight: bold;
 	background-color: hsl(245, 75%, 52%);
-	padding: 10px;
+	
 	color: white;	
 	cursor: pointer;
 	margin-bottom: 10px;
-    flex-basis: 339px;
+    
     margin-left: 21px;
     margin-right: 21px;
     box-shadow: 0px 9px 19px lightblue;
         height: 40px;
+        padding-right: 104px;
+    padding-left: 102px;
 
 }
 
