@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url(../images/pattern-background-desktop.svg);
+background-repeat: no-repeat;
+background-color: hsl(225, 100%, 94%);
+text-align: center;
+}
+
+.container{
+
+background-color:white;
+width: 380px;
+height: 543px;
+border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.imagen-cabecera .imagen1{
+
+width: 100%;
+border-radius: 10px 10px 0px 0px;
+
+}
+
+.texto-cabecera h1{
+text-align: center;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 900;
+margin-top: 10px;
+}
+
+.texto-cabecera h2{
+text-align: center;
+font-family: 'Red Hat Display', sans-serif;
+margin-top: 10px;
+font-size: 16px;
+font-weight:500;
+padding: 0px 11px 0px 11px;
+}
+
+.container .interior{
+
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.palabras{
+font-family: 'Red Hat Display', sans-serif;
+font-size: 13px;
+font-weight: 600;
+
+}
+
+
+.interior .cambio{
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+        cursor: pointer;
+}
+
+.interior .precio{
+font-family: 'Red Hat Display', sans-serif;
+font-size: 13px;
+font-weight: 400;	
+
+}
+
+
+.interior .contenido-central{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 75px;
+}
+
+.interior .cambio{
+
+border:none;
+background-color: transparent;
+border-radius: 10px;
+text-decoration: underline;
+font-weight: bold;
+color: blue;
+margin-right: 20px;
+}
+
+
+
+.botones{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.boton1 .proceder{
+
+	border:none;
+	background-color: transparent;
+	border-radius: 8px;
+	font-weight: bold;
+	background-color: hsl(245, 75%, 52%);
+	padding: 10px;
+	color: white;	
+	cursor: pointer;
+	margin-bottom: 10px;
+    flex-basis: 339px;
+    margin-left: 21px;
+    margin-right: 21px;
+    box-shadow: 0px 9px 19px lightblue;
+
+}
+
+.boton2 .cancelar{
+
+	border:none;
+	background-color: transparent;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+	
+
+}
+
+.cancelar:hover,
+.cambio:hover{
+
+color: blue;
+transition: all .3s ease-in-out;
+
+}
+
+.proceder:hover{
+
+opacity: 0.8;
+transition: all .3s ease-in-out;
+}
+
+.attribution{
+
+	display: none;
+}
+
+.planes-precios{
+
+
+	flex-basis: 222px;
+    text-align: initial;
+}
+
+.boton1,.boton2{
+	display: flex;
+    justify-content: center;
+}
+
+.icono{
+	margin-right: 16px;
+	margin-left: 16px;
+}
